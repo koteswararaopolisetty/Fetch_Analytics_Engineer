@@ -3,11 +3,11 @@
 This repository contains a data model and SQL queries for analyzing receipt data. The data model is designed to handle various business requirements and data quality issues.
 
 The data model consists of the following tables:
-Users
-Brands
-Receipts
-ReceiptItems
-Items
+* Users
+* Brands
+* Receipts
+* ReceiptItems
+* Items
 
 ### Key Points
 
