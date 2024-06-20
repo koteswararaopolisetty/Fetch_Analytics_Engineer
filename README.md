@@ -11,6 +11,6 @@ The data model consists of the following tables:
 
 ### Key Points
 
-ReceiptItems:
-Added brandID column to reference Brands table and allow easy association of items with brands.
-This table does not have a separate surrogate key (id). Instead, it relies on the combination of receiptId and itemId to uniquely identify each receipt item, maintaining the relationship with the Receipts table and avoiding unnecessary duplication.
+1. ReceiptItems:
+* Added brandID column to reference Brands table and allow easy association of items with brands.
+* This table does not have a separate surrogate key (id). Instead, it relies on the combination of receiptId and itemId to uniquely identify each receipt item, maintaining the relationship with the Receipts table and avoiding unnecessary duplication.
